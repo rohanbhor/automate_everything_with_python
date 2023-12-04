@@ -1,0 +1,23 @@
+<html>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<div class="container">
+    <h1>Volume Calculator</h1>
+    <p>Enter the three dimensions to get the volume</p>
+    <form method="POST">
+        <div>
+            <input type="text" placeholder="First Dimention"
+                   name="first_dim" value={{dim_1}}></input>
+        </div>
+        <div>
+            <input type="text" placeholder="Second Dimention"
+                   name="second_dim" value={{dim_2}}></input>
+        </div>
+        <div>
+            <input type="text" placeholder="Third Dimention"
+                   name="third_dim" value={{dim_3}}></input>
+        </div>
+        <p>{{output}}</p>
+        <button class="btn btn-warning">Calculate</button>
+    </form>
+</div>
+</html>
